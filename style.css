@@ -1,0 +1,132 @@
+/* ======= RESET & BASE STYLES ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 40px;
+  }
+  
+  /* ======= MAIN RESUME CONTAINER ======= */
+  .resume {
+    background: white;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ======= HEADER STYLES ======= */
+  .header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .header .contact-info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .header .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  /* ======= SECTION STYLES ======= */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* ======= EDUCATION AND EXPERIENCE STYLES ======= */
+  .row {
+    margin-top: 15px;
+    display: block;
+  }
+  
+  .row div {
+    margin-bottom: 10px;
+  }
+  
+  .row .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .row .details {
+    font-size: 15px;
+    color: #777;
+  }
+  
+  .row .date {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  /* ======= SKILLS SECTION ======= */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skills div {
+    background: #ecf0f1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #2c3e50;
+  }
+  
+  /* ======= ACHIEVEMENTS LIST ======= */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* ======= FOOTER STYLES ======= */
+  .footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+  }
